@@ -1,6 +1,6 @@
 {
   "name": "hapi-maxmind-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Hapi Maxmind geo ip locator webservice plugin.",
   "main": "lib/index.js",
   "scripts": {
