@@ -18,3 +18,6 @@ This is a [Hapijs](https://hapijs.com/) plugin for [MaxMind GeoIP2 Web Service](
 ### Example
 
 See [example.js](example.js) for example.
+
+### Other thoughts
+I would suggest that [caching](https://hapijs.com/tutorials/caching?lang=en_US) is enabled for the query results from using this plugin because Maxmind bills by the number of queries - regardless if you query for the same IPs or not. Based on the information from a support representative from Maxmind, they update their databases weekly on Tuesdays, so it makes sense to cache the results for a duration that works for you.
